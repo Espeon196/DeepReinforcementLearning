@@ -50,7 +50,7 @@ if __name__ == '__main__':
     env = GridWorld()
     agent = McOffPolicyAgent()
 
-    episodes = 10000
+    episodes = 1000000
     for episode in range(episodes):
         state = env.reset()
         agent.reset()
